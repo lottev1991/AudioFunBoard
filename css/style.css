@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+  background-color: rgb(96,160,96);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+a,
+select,
+option,
+input {
+  font-size: 14px;
+}
+
+button {
+  cursor:pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+#pagetitle {
+  text-align: center;
+  font-size: 72px;
+  font-family: 'Chewy';
+  color: yellow;
+  -webkit-text-stroke: black 2px;
+}
+
+#main-sec {
+  display: inline;
+  position: relative;
+}
+
+#playlist-sec {
+  margin-top: 50px;
+  display: block;
+}
+
+button {
+  display: inline;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px black solid;
+  color: black;
+  background-color: rgb(224,224,224);
+  border-radius: 5px;
+}
+
+#instr-btn {
+  margin: auto;
+  display: block;
+  font-size: 20px;
+}
+
+#instructions {
+  background-color: #eee;
+  border: 1px black solid;
+  border-radius: 5px;
+  line-height: 25px;
+}
+
+.ui-draggable {
+  cursor: grab;
+}
+
+.ui-draggable-dragging {
+  cursor: grabbing;
+}
+
+.ui-dialog-titlebar {
+  display: flex;
+  background-color: rgb(0,0,96);
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 100%;
+  color: white;
+  align-items: center;
+}
+
+.ui-dialog {
+  z-index: 9999999999;
+}
+
+.ui-dialog-titlebar-close {
+  margin-left: auto;
+  background-image: url(https://code.jquery.com/ui/1.14.2/themes/base/images/ui-icons_777777_256x240.png);
+  background-position: -97px -129px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  padding: 7.5px;
+}
+
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  background-color: black;
+  opacity: .5;
+}
+
+.ui-button-icon-space {
+  padding: 5px;
+}
+
+.ui-tabs-panel {
+  max-width: 1140px;
+  min-height: 128px;
+  max-height: 600px;
+  border: 1px black solid;
+  background-color: rgb(0,0,96);
+  border-radius: 5px;
+  text-align: center;
+  overflow: auto;
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+
+.pl-item {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 2px;
+  padding: 5px;
+  border: 1px black solid;
+  color: black;
+  background-color: rgb(224,224,224);
+  border-radius: 5px;
+  line-break: normal;
+  white-space: nowrap;
+  cursor: grab;
+}
+
+#playlist {
+  border: 1px black solid;
+    background: repeating-linear-gradient(
+    180deg,
+    #666,
+    #666 1px,
+    rgb(0,0,96) 1px,
+    rgb(0,0,96) 45px
+  );
+  max-width: 1140px;
+  min-height: 128px;
+  max-height: 600px;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: auto;
+  display: block;
+  margin: 5px;
+}
+
+#container {
+  margin: auto;
+  position: relative;
+  max-width: 1140px;
+  display: block;
+}
+
+#tab-bar {
+  position: relative;
+  text-align: center;
+}
+
+#tab-bar li {
+  display: inline;
+}
+
+#playlist-meta {
+  font-size: 12px;
+  color: #333;
+}
+
+#controls,
+#btn-sec,
+#playlist-manager {
+  position: relative;
+}
+
+#footer {
+  border: 1px black solid;
+  color: white;
+  background-color: rgb(0,0,96);
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0px;
+  line-height: 1px;
+}
+
+#footer p {
+  font-size: 10px;
+}
+
+#footer a {
+  color: rgb(192,192,192);
+  font-size: 10px;
+}
+
+@media screen and (orientation:portrait) {
+  :root {
+    font-size: 24px;
+  }
+
+  #pagetitle {
+    font-size: 72px;
+  }
+
+  p,
+  a,
+  select,
+  option,
+  input,
+  button,
+  #playlist-meta {
+    font-size: 24px;
+  }
+
+  #container {
+    max-width: 768px;
+  }
+
+  .ui-tabs-panel {
+    min-height: 600px;
+    max-height: 800px;
+  }
+
+  #playlist {
+    min-height: 500px;
+    max-height: 800px;
+  }
+}

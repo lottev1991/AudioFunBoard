@@ -1,0 +1,25 @@
+{
+  "name": "AudioFunBoard",
+  "short_name": "AFB",
+  "description": "Soundboard web app where you can arrange sounds in a playlist and export it.",
+  "start_url": "./index.php",
+  "scope": "./",
+  "lang": "en",
+  "theme_color": "rgb(0,0,96)",
+  "background_color": "rgb(0,0,96)",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./favicon-192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./favicon.ico",
+      "sizes": "256x256"
+    },
+    {
+      "src": "./favicon.png",
+      "sizes": "512x512"
+    }
+  ]
+}
