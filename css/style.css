@@ -277,6 +277,10 @@ button {
     padding: 20px;
   }
 
+  .ui-dialog-title {
+    font-size: 26px;
+  }
+
   div {
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
