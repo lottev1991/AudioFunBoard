@@ -1,3 +1,21 @@
+$.event.special.longpress = {
+    setup: function () {
+        $(this).on('touchstart', start).on('touchend touchmove', stop);
+    }
+};
+
+let timer;
+function start(e) {
+    const target = $(e.target);
+    timer = setTimeout(() => {
+        target.trigger('longpress');
+    }, 600); // Adjust duration as needed
+}
+
+function stop() {
+    clearTimeout(timer);
+}
+
 $(function () {
     updateDropdown();
 
@@ -43,6 +61,19 @@ $(function () {
         savePlaylist();
     });
 
+    $('.btn').on('longpress', function () {
+        const audioId = $(this).data('target');
+        const audioEl = document.getElementById(audioId);
+
+        if (audioEl) {
+            const soundSrc = $(audioEl).attr('src');
+            const soundName = $(this).text().trim();
+            $('#playlist').append(`<li class="ui-state-default pl-item" data-src="${soundSrc}">${soundName}</li>`);
+            console.log("Just added path:", soundSrc);
+        }
+        savePlaylist();
+    });
+
     $('#playlist').sortable({
         containment: "parent",
         cursor: "grabbing",
@@ -50,6 +81,11 @@ $(function () {
             savePlaylist();
         }
     }).on('dblclick', 'li', function () {
+        $(this).fadeOut(200, function () {
+            $(this).remove();
+            savePlaylist();
+        });
+    }).on('longpress', 'li', function (){
         $(this).fadeOut(200, function () {
             $(this).remove();
             savePlaylist();
