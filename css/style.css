@@ -232,10 +232,10 @@ button {
 }
 
 @media screen and (orientation:portrait) and (max-width:768) {
-  #pagetitle {
+  /* #pagetitle {
     font-size: 48px;
-  }
-  /* :root {
+  } */
+  :root {
     font-size: 24px;
   }
 
@@ -251,7 +251,7 @@ button {
 
   #instructions, ul, li {
     font-size: 16px !important;
-  } */
+  }
 
   #container {
     max-width: 768px;
