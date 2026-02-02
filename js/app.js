@@ -14,7 +14,6 @@ $(function () {
         },
         draggable: "true",
         width: 500,
-        // appendTo: "#container"
     });
 
     $("#instr-btn").on("click", function () {
