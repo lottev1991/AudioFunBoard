@@ -44,8 +44,8 @@
                 <ul>
                     <li>Click on each tab to switch to a different sound effects set.</li>
                     <li>Single-click on each button on the tab to play the sound.</li>
-                    <li>Double-click on each button to add the sound to the playlist at the bottom.</li>
-                    <li>Double-click on an item on the playlist to remove it again.</li>
+                    <li>Double-click (long-press on mobile) on each button to add the sound to the playlist at the bottom.</li>
+                    <li>Double-click (long-press on mobile) on an item on the playlist to remove it again.</li>
                     <li>There are also options to:</li>
                     <ul>
                         <li>Play back the playlist.</li>

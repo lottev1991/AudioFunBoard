@@ -6,8 +6,8 @@ It can also be installed as a PWA.
 ## How this works
 - Click on each tab to switch to a different sound effects set.
 - Single-click on each button on the tab to play the sound.
-- Double-click on each button to add the sound to the playlist at the bottom.
-- Double-click on an item on the playlist to remove it again.
+- Double-click (long-press on mobile) on each button to add the sound to the playlist at the bottom.
+- Double-click (long-press on mobile) on an item on the playlist to remove it again.
 - There are also options to:
   - Play back the playlist.
   - Stop playing the playlist.
