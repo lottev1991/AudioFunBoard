@@ -250,9 +250,9 @@ button {
     font-size: 24px;
   }
 
-  #instructions {
+  /* #instructions {
     font-size: 16px !important;
-  }
+  } */
 
   #container {
     max-width: 768px;
