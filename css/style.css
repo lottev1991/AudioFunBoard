@@ -6,7 +6,7 @@
   line-height: 25px;
   font-weight: 400;
   color: #0f0f0f;
-  background-color: rgb(96,160,96);
+  background-color: rgb(96, 160, 96);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,8 +24,8 @@
 .ui-widget {
   touch-action: none;
   user-select: none;
-  -webkit-user-select: none; /* Prevents text selection during long-press */
-  -webkit-touch-callout: none; /* Prevents the iOS context menu */
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 p,
@@ -37,7 +37,7 @@ input {
 }
 
 button {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 a {
@@ -70,7 +70,7 @@ button {
   font-size: 14px;
   border: 1px black solid;
   color: black;
-  background-color: rgb(224,224,224);
+  background-color: rgb(224, 224, 224);
   border-radius: 5px;
 }
 
@@ -97,7 +97,7 @@ button {
 
 .ui-dialog-titlebar {
   display: flex;
-  background-color: rgb(0,0,96);
+  background-color: rgb(0, 0, 96);
   border: 1px black solid;
   border-radius: 5px;
   padding: 5px;
@@ -122,11 +122,11 @@ button {
 }
 
 .ui-widget-overlay {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-color: black;
   opacity: .5;
 }
@@ -140,7 +140,7 @@ button {
   min-height: 128px;
   max-height: 600px;
   border: 1px black solid;
-  background-color: rgb(0,0,96);
+  background-color: rgb(0, 0, 96);
   border-radius: 5px;
   text-align: center;
   overflow: auto;
@@ -157,7 +157,7 @@ button {
   padding: 5px;
   border: 1px black solid;
   color: black;
-  background-color: rgb(224,224,224);
+  background-color: rgb(224, 224, 224);
   border-radius: 5px;
   line-break: normal;
   white-space: nowrap;
@@ -166,13 +166,11 @@ button {
 
 #playlist {
   border: 1px black solid;
-    background: repeating-linear-gradient(
-    180deg,
-    #666,
-    #666 1px,
-    rgb(0,0,96) 1px,
-    rgb(0,0,96) 45px
-  );
+  background: repeating-linear-gradient(180deg,
+      #666,
+      #666 1px,
+      rgb(0, 0, 96) 1px,
+      rgb(0, 0, 96) 45px);
   max-width: 1140px;
   min-height: 128px;
   max-height: 600px;
@@ -214,7 +212,7 @@ button {
 #footer {
   border: 1px black solid;
   color: white;
-  background-color: rgb(0,0,96);
+  background-color: rgb(0, 0, 96);
   position: fixed;
   text-align: center;
   bottom: 0;
@@ -229,7 +227,7 @@ button {
 }
 
 #footer a {
-  color: rgb(192,192,192);
+  color: rgb(192, 192, 192);
   font-size: 10px;
 }
 
@@ -240,6 +238,10 @@ button {
 
   #pagetitle {
     font-size: 72px;
+  }
+
+  #instructions > * {
+    font-size: 16px;
   }
 
   p,
