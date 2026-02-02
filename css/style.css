@@ -270,9 +270,9 @@ button {
     max-height: 800px;
   }
 
-  .ui-dialog-titlebar-close {
+  /* .ui-dialog-titlebar-close {
     width: 32px;
     height: 32px;
     padding: 7.5px;
-  }
+  } */
 }
