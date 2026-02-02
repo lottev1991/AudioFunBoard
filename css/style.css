@@ -235,6 +235,7 @@ button {
   #pagetitle {
     font-size: 72px;
   }
+
   :root {
     font-size: 24px;
   }
@@ -249,7 +250,9 @@ button {
     font-size: 24px;
   }
 
-  #instructions, ul, li {
+  #instructions,
+  ul,
+  li {
     font-size: 16px !important;
   }
 
@@ -265,5 +268,11 @@ button {
   #playlist {
     min-height: 300px;
     max-height: 800px;
+  }
+
+  .ui-dialog-titlebar-close {
+    width: 32px;
+    height: 32px;
+    padding: 7.5px;
   }
 }
