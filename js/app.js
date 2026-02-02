@@ -10,7 +10,7 @@ $(function () {
         const target = $(e.target);
         timer = setTimeout(() => {
             target.trigger('longpress');
-        }, 600); // Adjust duration as needed
+        }, 600);
     }
 
     function stop() {

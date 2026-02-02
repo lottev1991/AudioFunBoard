@@ -21,6 +21,13 @@
   font-style: normal;
 }
 
+.ui-widget {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none; /* Prevents text selection during long-press */
+  -webkit-touch-callout: none; /* Prevents the iOS context menu */
+}
+
 p,
 a,
 select,
