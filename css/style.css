@@ -269,12 +269,6 @@ button {
     max-height: 800px;
   }
 
-  .ui-dialog-titlebar-close {
-    transform: scale(1.5);
-    background-size: 384px 336px;
-    background-position: -194px -258px;
-  }
-
   div {
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
