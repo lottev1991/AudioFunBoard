@@ -271,8 +271,8 @@ button {
   }
 
   .ui-dialog-titlebar-close {
-    width: 320px;
-    height: 320px;
+    width: 64px;
+    height: 64px;
     padding: 7.5px;
   }
 }
