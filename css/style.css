@@ -291,4 +291,12 @@ button {
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
   }
+
+  #footer p {
+    font-size: 20px;
+  }
+
+  #footer a {
+    font-size: 20px;
+  }
 }
