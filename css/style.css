@@ -240,10 +240,6 @@ button {
     font-size: 72px;
   }
 
-  #instructions {
-    font-size: 16px;
-  }
-
   p,
   a,
   select,
@@ -252,6 +248,10 @@ button {
   button,
   #playlist-meta {
     font-size: 24px;
+  }
+
+  #instructions {
+    font-size: 16px;
   }
 
   #container {
