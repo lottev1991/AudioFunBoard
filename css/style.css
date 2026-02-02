@@ -233,7 +233,7 @@ button {
 
 @media screen and (orientation:portrait) {
   #pagetitle {
-    font-size: 72px;
+    font-size: 96px;
   }
 
   :root {
