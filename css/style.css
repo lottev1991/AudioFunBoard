@@ -267,4 +267,9 @@ button {
     min-height: 300px;
     max-height: 800px;
   }
+
+  div {
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+  }
 }
