@@ -50,6 +50,7 @@
                     <ul>
                         <li>Play back the playlist.</li>
                         <li>Stop playing the playlist.</li>
+                        <li>Reorder the playlist by dragging clips around.</li>
                         <li>Export the playlist to a local .wav file.</li>
                         <li>Clear the current playlist.</li>
                         <li>Save the current playlist in the browser.</li>

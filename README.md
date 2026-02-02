@@ -11,6 +11,7 @@ It can also be installed as a PWA.
 - There are also options to:
   - Play back the playlist.
   - Stop playing the playlist.
+  - Reorder the playlist by dragging clips around.
   - Export the playlist to a local .wav file.
   - Clear the current playlist.
   - Save the current playlist in the browser.
