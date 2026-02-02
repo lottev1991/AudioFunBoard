@@ -250,10 +250,8 @@ button {
     font-size: 24px;
   }
 
-  #instructions,
-  ul,
-  li {
-    font-size: 1px !important;
+  #instructions {
+    font-size: 16px !important;
   }
 
   #container {
