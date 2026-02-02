@@ -270,7 +270,7 @@ button {
   }
 
   .ui-dialog-titlebar-close {
-    transform: scale(3.0);
+    transform: scale(2.5);
   }
 
   .ui-dialog-titlebar {
