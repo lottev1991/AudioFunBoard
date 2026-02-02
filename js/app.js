@@ -1,22 +1,22 @@
-$.event.special.longpress = {
-    setup: function () {
-        $(this).on('touchstart', start).on('touchend touchmove', stop);
-    }
-};
-
-let timer;
-function start(e) {
-    const target = $(e.target);
-    timer = setTimeout(() => {
-        target.trigger('longpress');
-    }, 600); // Adjust duration as needed
-}
-
-function stop() {
-    clearTimeout(timer);
-}
-
 $(function () {
+    $.event.special.longpress = {
+        setup: function () {
+            $(this).on('touchstart', start).on('touchend touchmove', stop);
+        }
+    };
+
+    let timer;
+    function start(e) {
+        const target = $(e.target);
+        timer = setTimeout(() => {
+            target.trigger('longpress');
+        }, 600); // Adjust duration as needed
+    }
+
+    function stop() {
+        clearTimeout(timer);
+    }
+
     updateDropdown();
 
     $("#btn-sec").tabs();
@@ -85,7 +85,7 @@ $(function () {
             $(this).remove();
             savePlaylist();
         });
-    }).on('longpress', 'li', function (){
+    }).on('longpress', 'li', function () {
         $(this).fadeOut(200, function () {
             $(this).remove();
             savePlaylist();
