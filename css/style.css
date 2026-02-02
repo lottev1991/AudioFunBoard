@@ -231,7 +231,7 @@ button {
   font-size: 10px;
 }
 
-@media screen and (orientation:portrait) {
+@media screen and (orientation:portrait) and (max-width:768) {
   #pagetitle {
     font-size: 48px;
   }
