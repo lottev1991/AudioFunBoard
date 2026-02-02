@@ -240,8 +240,7 @@ button {
     font-size: 72px;
   }
 
-  #instructions > ul,
-  #instructions > li {
+  #instructions {
     font-size: 16px;
   }
 
