@@ -271,9 +271,9 @@ button {
 
   .ui-dialog-titlebar-close {
     transform: scale(1.5);
-    background-size: 150%;
-    width: 32px;
-    height: 32px;
+    background-size: 384px 336px;
+    width: 24px;
+    height: 24px;
   }
 
   div {
