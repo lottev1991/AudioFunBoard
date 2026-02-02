@@ -272,7 +272,7 @@ button {
 
   .ui-dialog-titlebar-close {
     background-size:200%;
-    width: 32px;
-    height: 32px;
+    width: 64px;
+    height: 64px;
   }
 }
